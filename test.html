@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title Search Report</title>
+    
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <style>
+        /* Title Search Report Section */
+        .title-search-section {
+            background: #ffffff;
+            padding: 50px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .title-search-image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .title-search-content {
+            padding: 20px;
+        }
+
+        .title-search-content h2 {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .title-search-content p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .title-search-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .title-search-list li {
+            font-size: 1rem;
+            color: #444;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .title-search-list li i {
+            color: #007bff;
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+
+        .title-search-btn {
+            padding: 12px 25px;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .btn-view {
+            background-color: #007bff;
+            color: #fff;
+            border: 2px solid #007bff;
+        }
+
+        .btn-view:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+
+        .btn-report {
+            background-color: #28a745;
+            color: #fff;
+            border: 2px solid #28a745;
+        }
+
+        .btn-report:hover {
+            background-color: #218838;
+            color: #fff;
+        }
+
+        /* Hide Image on Mobile */
+        @media (max-width: 768px) {
+            .title-search-image {
+                display: none;
+            }
+            .title-search-section {
+                text-align: center;
+            }
+            .title-search-list {
+                display: inline-block;
+                text-align: left;
+            }
+            .title-search-btn {
+                display: block;
+                width: 80%;
+                max-width: 300px;
+                margin: 10px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Title Search Report Section -->
+    <section class="title-search-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Side Image (Hidden on Mobile) -->
+                <div class="col-lg-6 title-search-image text-center d-none d-md-block">
+                    <img src="https://via.placeholder.com/500" alt="Title Search Report">
+                </div>
+
+                <!-- Right Side Content -->
+                <div class="col-lg-6 title-search-content text-lg-start text-center">
+                    <h2>Comprehensive Title Search Report</h2>
+                    <p>Ensure legal ownership and avoid disputes with our expert title search reports. We verify land records, encumbrances, and provide detailed legal insights.</p>
+                    
+                    <!-- Key Highlights -->
+                    <ul class="title-search-list">
+                        <li><i class="fas fa-check-circle"></i> In-depth property title verification</li>
+                        <li><i class="fas fa-check-circle"></i> Encumbrance & litigation check</li>
+                        <li><i class="fas fa-check-circle"></i> Ownership & history verification</li>
+                        <li><i class="fas fa-check-circle"></i> Legal opinion by expert lawyers</li>
+                        <li><i class="fas fa-check-circle"></i> 100% reliable & confidential reports</li>
+                    </ul>
+
+                    <!-- Buttons -->
+                    <a href="title-search.html" class="btn title-search-btn btn-view me-lg-3"><i class="fas fa-eye"></i> View More</a>
+                    <a href="title-search.html" class="btn title-search-btn btn-report"><i class="fas fa-file-alt"></i> Get Report</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
